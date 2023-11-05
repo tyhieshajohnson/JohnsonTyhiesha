@@ -3,18 +3,53 @@
 /* Navigation Bar - Media Query Preparation: a)Desktop 1280x720, 1920x1080, b)Mobile 360x640, 414x896, c)Tablet 601x962, 1280x800  */
 /* Navigation Bar Media Query a) Desktop */
 /* Media Query - 1280x720 */
+@media screen and (max-width: 1280px) {
+
+}
 
 /* Media Query - 1920x1080 */
+@media screen and (max-width: 1920px) {
+
+}
 /* a)Desktop Media Query END */
 
 /* Navigation Bar Media Query b) Mobile */
 /* Media Query - 360x640 */
+/* Portrait */
+@media only screen and (device-width: 360px) and (orientation: portrait) {
+
+}
+/* Landscape */
+@media only screen and (device-width:640px) and (orientation: landscape) {
+
+}
 
 /* Media Query - 414x896 */
+@media only screen and (min-device-width: 414px) and (max-device-width: 800px) {
+
+}
 /* b)Mobile Media Query END */
 
 /* Navigation Bar Media Query c)Tablet */
 /* Media Query - 601x962 */
+/* Portrait */
+@media only screen and (min-device-width: 601px) and (max-device-width:962px) and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 962px) and (max-device-width: 962px) and (orientation: landscape) {
+
+}
 
 /* Media Query - 1280x800 */
+@media screen and (max-width: 1280px) {
+
+}
 /* c)Tablet Media Query END */
+/* Navigation Bar Notes
+1st Content Check: Complete
+2nd Check:
+3rd Check:
+4th Check:
+*/
