@@ -4,12 +4,16 @@
 /* Navigation Bar Media Query a) Desktop */
 /* Media Query - 1280x720 */
 @media screen and (max-width: 1280px) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 
 /* Media Query - 1920x1080 */
 @media screen and (max-width: 1920px) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 /* a)Desktop Media Query END */
 
@@ -17,16 +21,22 @@
 /* Media Query - 360x640 */
 /* Portrait */
 @media only screen and (device-width: 360px) and (orientation: portrait) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 /* Landscape */
 @media only screen and (device-width:640px) and (orientation: landscape) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 
 /* Media Query - 414x896 */
 @media only screen and (min-device-width: 414px) and (max-device-width: 800px) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 /* b)Mobile Media Query END */
 
@@ -34,22 +44,28 @@
 /* Media Query - 601x962 */
 /* Portrait */
 @media only screen and (min-device-width: 601px) and (max-device-width:962px) and (orientation: portrait) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 
 /* Landscape */
 @media only screen and (min-device-width: 962px) and (max-device-width: 962px) and (orientation: landscape) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 
 /* Media Query - 1280x800 */
 @media screen and (max-width: 1280px) {
-
+    .navigationBar {
+        justify-content: center;
+    }
 }
 /* c)Tablet Media Query END */
 /* Navigation Bar Notes
 1st Content Check: Complete
-2nd Check:
+2nd Content Check: Navigation Bar not moving.
 3rd Check:
 4th Check:
 */
