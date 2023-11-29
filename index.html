@@ -13,52 +13,47 @@
     <!-- Planning: Home, Skills, Projects, Testimonials & Contact -->
     <!-- Bootstrap Navigation Bar -->
     <!-- CSS Planning: Whole Navigation Bar - class="navigationBar" id="navigationBar" -->
-    <div class="d-flex">
-    <section class="navbar-expand-lg justify-content-center">   
-    <nav class="navbar d-flex">
-        <!-- <div class="container-fluid justify-content-center"> -->
-        <!-- Navigation Bar - Home (About) -->
-        <div class="dropdown btn-group navigationBar container-fluid" id="navigationBar">
-            <button type="button" class="dropdown-toggle btn btn-danger" data-bs-toggle="dropdown" aria-expanded="false">
-                Home
-            </button>
-            <ul class="dropdown-menu">
-                <li>
-                    <a class="dropdown-item" href="#">About</a>
-                </li>
-            </ul>
-        <!-- Navigation Bar - Skills & Experiences (Education, Work Experience, Skills) -->
-            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Skills & Experiences
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Education</a></li>
-                <li><a class="dropdown-item" href="#">Work Experience</a></li>
-                <li><a class="dropdown-item" href="#">Skills</a></li>
-            </ul>
-        <!-- Navigation Bar - Projects (Calculator, Keyboard, Netflix, eCommerce, Mental Health Care)-->
-            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-                Projects
-            </button>
-            <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Calculator</a></li>
-                <li><a class="dropdown-item" href="#">Keyboard</a></li>
-                <li><a class="dropdown-item" href="#">Netflix</a></li>
-                <li><a class="dropdown-item" href="#">eCommerce</a></li>
-                <li><a class="dropdown-item" href="#">Mental Health Care</a></li>
-            </ul>
-        <!-- Navigation Bar - Testimonials -->
-            <button type="button" class="btn btn-danger">
-                Testimonials
-            </button>
-        <!-- Navigation Bar - Contact -->
-        
-            <button type="button" class="btn btn-outline-danger">
-                Get In Touch
-            </button>
-        </div>
-        </div>
-    </nav>
+    <!-- Navigation Bar -->
+    <div class="nav-bar d-flex">
+        <section class="nav-bar-list navbar-expand-lg">
+             <!-- Home Button -->
+             <div class="btn-group homeNav">
+                <button href="#home" type="button" class="btn btn-danger">Tyhiesha Johnson</button>
+            </div>
+
+            <!-- About Button -->
+            <div class="dropdown btn-group">
+                <button type="button" class="dropdown-toggle btn btn-danger " data-bs-toggle="dropdown" aria-expanded="false">
+                  About
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#about">Skills & Experiences</a></li>
+                </ul>
+            </div>
+
+            <!-- Portfolio -->
+            <div class="btn-group">
+                <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Portfolio
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#projectOne">Project One</a></li>
+                  <li><a class="dropdown-item" href="#projectTwo">Project Two</a></li>
+                  <li><a class="dropdown-item" href="#projectThree">Project Three</a></li>
+                  <li><a class="dropdown-item" href="#projectFour">Project Four</a></li>
+                  <li><a class="dropdown-item" href="#projectFive">Project Five</a></li>
+                </ul>
+            </div>
+
+            <!-- Testimonials -->
+            <div class="btn-group homeNav">
+                <button href="#testimonials" type="button" class="btn btn-danger">Testimonials</button>
+            </div>
+
+            <!-- Contact -->
+            <div class="btn-group homeNav">
+                <button href="#contact" type="button" class="btn btn-outline-danger">Get In Touch</button>
+            </div>
     </section>
     </div>
     <!-- Navigation Bar Notes: 
